@@ -30,8 +30,7 @@ public class User {
 	@Past
 	private Date dateOfBirth;
 
-	// @Phone(message = "Phone Number is invalid")
-	@Phone
+	@Phone(message = "Phone Number is invalid in source code")
 	private String phoneNumber;
 
 	public Integer getId() {
